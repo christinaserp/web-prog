@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html, body {
+	margin: 0px; /** Отступы со всех сторон равны 0px **/
+	padding: 0px; /** Отступы со всех сторон равны 0px **/
+	font-family: 'Comfortaa', cursive;
+
+	background-color: white; /** Шрифты по умолчанию **/
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.header > h1, a {
+	text-align:center;
+	float: center;
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+    color: black;
+}
+
+.about {
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.media-heading{
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.otzivi {
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.panel-heading h3 {
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.form-group {
+	color: #DC143C;
+
+}
+
+.button {
+	background-color: #DC143C;
+}
